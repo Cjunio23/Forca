@@ -29,9 +29,41 @@ Bem-vindo ao repositório do **Jogo de Adivinhação de Palavras**! O objetivo d
 
 ## ⚙️ Como Usar
 
-### 1. Clone o Repositório
+## 1. Clone o Repositório
 
 Clone este repositório para o seu computador utilizando o Git:
 
-```bash
 git clone https://github.com/seu_usuario/jogo-de-adivinhacao.git
+
+## 2. Compile o Código
+O código está escrito em C. Para compilá-lo, utilize o GCC:
+
+bash
+Copiar
+Editar
+gcc -o jogo_adivinhacao main.c
+
+## 3. Execute o Programa
+Após compilar, execute o jogo no terminal:
+
+bash
+Copiar
+Editar
+./jogo_adivinhacao
+
+## 4. Forneça um Arquivo de Palavras
+O programa requer um arquivo de palavras. O arquivo deve conter uma lista de palavras, uma por linha. Exemplo de arquivo palavras.txt:
+
+nginx
+Copiar
+Editar
+apple
+banana
+grape
+
+## 📁 Estrutura de Arquivos
+main.c: Arquivo principal com a lógica do jogo.
+palavras.txt: Arquivo de exemplo com palavras para o jogo. (Você pode substituir por um arquivo próprio.)
+
+## 🤝 Contribuindo
+Contribuições são bem-vindas! Se você encontrou um problema ou tem sugestões para melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
